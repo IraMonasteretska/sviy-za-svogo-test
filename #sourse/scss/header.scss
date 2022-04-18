@@ -1,0 +1,127 @@
+header.header {
+    height: 112px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    z-index: 11;
+}
+
+.header__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 1px solid rgba(#212121, 0.7);
+    height: 112px;
+}
+
+.header__logo {
+    width: 100%;
+    max-width: 102px;
+    flex: 0 0 102px;
+}
+
+.header__nav {
+    width: 100%;
+    max-width: calc(100% - 495px);
+    flex: 0 0 calc(100% - 495px);
+
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        text-align: center;
+
+        li {
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0 17px;
+
+            a {
+                color: #212121;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 120%;
+                transition: 0.3s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.header__tel {
+    width: 100%;
+    max-width: 338px;
+    flex: 0 0 338px;
+    display: flex;
+    align-items: center;
+
+    p {
+        margin: 0;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        padding-right: 17px;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        padding-left: 21px;
+        border-left: 1px solid rgba(#212121, 0.7);
+
+        li {
+            a {
+                color: #212121;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 120%;
+                transition: 0.3s;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}
+
+.header__lang {
+    width: 100%;
+    max-width: 55px;
+    flex: 0 0 55px;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            a {
+                text-transform: uppercase;
+                color: #212121;
+                font-weight: 600;
+                font-size: 17px;
+                line-height: 120%;
+                transition: 0.3s;
+
+                &:hover {
+                    opacity: 0.3;
+                }
+            }
+
+            &.active a {
+                opacity: 0.3;
+            }
+        }
+    }
+}
