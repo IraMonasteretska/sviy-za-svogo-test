@@ -1,5 +1,6 @@
 .welcomescreen {
-    padding: 76px 0 100px 0;
+    padding: 76px 0 0 0;
+    padding-bottom: 0 !important;
 }
 
 .welcomescreen__leftsect {
@@ -40,7 +41,7 @@
 }
 
 .ourjob {
-    padding: 40px 0 130px 0;
+    padding: 140px 0 0 0 !important;
 
     .ourjob__leftsect {
         max-width: 531px;
@@ -125,6 +126,7 @@
 .collected {
     overflow: hidden;
     margin-bottom: 130px;
+    padding-top: 130px;
 
     .collected__lefttsect {
         padding-top: 40px;
@@ -330,7 +332,9 @@
 
 
 
-
+:root {
+    scroll-behavior: inherit;
+}
 
 
 

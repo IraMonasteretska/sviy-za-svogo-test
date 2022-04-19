@@ -63,9 +63,12 @@ body {
     letter-spacing: 0.1em;
 }
 
-.button-container-2 button {
+.button-container-2 a {
     width: 101%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: #50CAFF;
     -webkit-mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
     mask: url("https://raw.githubusercontent.com/robin-dela/css-mask-animation/master/img/urban-sprite.png");
@@ -83,7 +86,7 @@ body {
     letter-spacing: 0.1em;
 }
 
-.button-container-2 button:hover {
+.button-container-2 a:hover {
     -webkit-animation: ani 0.7s steps(29) forwards;
     animation: ani 0.7s steps(29) forwards;
 }

@@ -26,6 +26,16 @@
     .welcomescreen__rightsect .imgwrap.big {
         height: 485px;
     }
+
+    .newssection h1 {
+        font-size: 44px;
+    }
+
+    .rekvbottsect>img {
+        left: 53%;
+    }
+
+
 }
 
 
@@ -103,7 +113,34 @@
         height: 480px;
     }
 
+    .newssection h1 {
+        font-size: 40px;
+    }
 
+    .news__box .news__box-pic {
+        height: 300px;
+    }
+
+    .news__box .news__box-descr .title {
+        font-size: 18px;
+    }
+
+    .rekvizytysect h1 {
+        font-size: 42px;
+    }
+
+    .reksect .title {
+        font-size: 28px;
+        margin-bottom: 50px;
+    }
+
+    .reksect .title span:after {
+        bottom: -20px;
+    }
+
+    .rekvbottsect p {
+        font-size: 28px;
+    }
 
 
 
@@ -193,10 +230,10 @@
     }
 
     .header__tel {
-        max-width: 120px;
-        flex: 0 0 120px;
+        max-width: 160px;
+        flex: 0 0 160px;
         display: inline-block;
-        text-align: center;
+        text-align: left;
 
         p {
             display: none;
@@ -311,12 +348,59 @@
         max-width: 65px;
     }
 
+    .newssection {
+        padding: 50px 0;
+    }
 
+    .rekbox {
+        margin-bottom: 50px;
+    }
 
+    .rekvbottsect {
+        margin-top: 130px;
+    }
 
+    .rekvbottsect p {
+        font-size: 24px;
+    }
+
+    .rekvizytysect {
+        padding-top: 40px;
+    }
+
+    .rekvizytysect h1 {
+        font-size: 40px;
+    }
+
+    .postsect article img {
+        width: 100%;
+    }
+
+    .collected {
+        padding-top: 60px;
+    }
+
+    .ourjob {
+        padding: 100px 0 0 0!important;
+    }
+}
+@media(max-width:767.8px) {
+    .rekvbottsect>img {
+        width: 250px;
+    }
+
+    .rekvbottsect:after {
+        right: -90px;
+        width: 300px;
+    }
+
+    .rekvbottsect>img {
+        left: initial;
+        right: 40px;
+    }
+   
 
 }
-
 @media(max-width:575.8px) {
     .welcomescreen__rightsect .imgwrap.litt:nth-child(2) {
         display: none;
@@ -462,10 +546,113 @@
 
     .header__lang.mobileshow {
         flex: initial;
+
         ul {
             li {
                 margin-bottom: 0;
             }
         }
+    }
+
+    .news__box .news__box-pic {
+        height: auto;
+    }
+
+    .newssection h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .newssection {
+        padding-top: 30px;
+    }
+
+    .news__box .news__box-descr {
+        padding-top: 10px;
+    }
+
+    .news__box .news__box-descr .title,
+    .news__box .news__box-descr .date {
+        margin-bottom: 12px;
+    }
+
+    .newssection .col-lg-3 a {
+        margin-bottom: 30px;
+    }
+
+    .rekvizytysect {
+        padding-top: 30px;
+    }
+
+    .rekvizytysect h1 {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .rekvizytysect .infotext {
+        font-size: 13px;
+    }
+
+    .reksect {
+        margin-top: 40px;
+    }
+
+    .reksect .title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    .reksect .title span:after {
+        width: 60px;
+    }
+
+    .reksect ul li,
+    .reksect ul li span {
+        font-size: 16px;
+    }
+
+    .rekvbottsect>img {
+        right: 0;
+        width: 160px;
+        bottom: 100%;
+    }
+
+    .rekvbottsect:after {
+        background: url(../img/flag.jpg) no-repeat center/ auto 100%;
+        bottom: 100%;
+        display: block;
+        top: initial;
+        width: 100%;
+        height: 100px;
+        right: 0;
+    }
+
+
+    .rekvbottsect p {
+        position: relative;
+        z-index: 2;
+    }
+
+    .rekvbottsect p {
+        font-size: 21px;
+    }
+
+    .rekvbottsect {
+        min-height: initial;
+        padding: 30px 0;
+    }
+
+    .reksect ul li:last-child {
+        margin-bottom: 0;
+    }
+    .rekbox {
+        margin-bottom: 30px;
+    }
+    .rekvizytysect {
+        padding-bottom: 50px;
+    }
+
+    .ourjob {
+        padding: 60px 0 0 0!important;
     }
 }

@@ -1,0 +1,108 @@
+.rekvizytysect {
+    padding: 70px 0;
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 120%;
+        margin-bottom: 16px;
+    }
+
+    .infotext {
+        margin: 0;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
+
+.reksect {
+    margin-top: 65px;
+
+    .title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+
+        span {
+            display: inline-block;
+            position: relative;
+
+            &::after {
+                content: '';
+                height: 2px;
+                width: 101px;
+                background: #50CAFF;
+                position: absolute;
+                left: 0;
+                bottom: -32px;
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            display: block;
+            margin-bottom: 25px;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 180%;
+            color: #000;
+
+            span {
+                display: block;
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            .copytext {
+                cursor: pointer;
+                font-weight: 700;
+            }
+
+            span.copytext {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.rekvbottsect {
+    min-height: 180px;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 170px;
+
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        background: url('../img/flag.jpg') no-repeat center / 100% 100%;
+        width: 36%;
+    }
+
+    p {
+        margin: 0;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    &>img {
+        position: absolute;
+        bottom: 0;
+        left: 57%;
+        z-index: 1;
+    }
+}
