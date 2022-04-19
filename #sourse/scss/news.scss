@@ -149,13 +149,21 @@
     overflow: hidden;
 }
 
+
+.newssection.postsect {
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
 .postsect {
     article {
+        max-width: 1000px;
+        margin: 0 auto;
         img {
-            width: 50%;
-            float: left;
-            margin-right: 30px;
-            margin-bottom: 30px;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto 30px;
         }
     }
 }

@@ -383,6 +383,36 @@
     .ourjob {
         padding: 100px 0 0 0!important;
     }
+
+    .btnswrap {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .bluebtn.rekvbtn {
+        display: flex;
+        background-color: #fff;
+        border: 1px solid #50CAFF;
+        color: #50CAFF;
+        min-height: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media(max-width:767.8px) {
     .rekvbottsect>img {
@@ -654,5 +684,10 @@
 
     .ourjob {
         padding: 60px 0 0 0!important;
+    }
+
+    .bluebtn.rekvbtn {
+        margin-top: 20px;
+        width: 100%;
     }
 }
