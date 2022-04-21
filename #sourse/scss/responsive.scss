@@ -481,7 +481,7 @@
 }
 
 @media(max-width:575.8px) {
-    .welcomescreen__rightsect .imgwrap.litt:nth-child(2) {
+    .welcomescreen__rightsect .imgwrap.big {
         display: none;
     }
 
@@ -764,11 +764,13 @@
         padding-left: 0;
     }
     .collectedzvit ul li p:first-child {
-        margin-bottom: 0;
+        margin-bottom: 20px;
     }
 
     .collectedzvit ul li {
-        margin-bottom: 35px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(#212121, 0.3);
+        padding-bottom: 15px;
     }
 
     .collectedzvit ul li p:first-child .descr {
@@ -776,7 +778,7 @@
     }
 
     .collectedzvit ul li p:first-child .title {
-        margin-bottom: 0;
+        // margin-bottom: 0;
     }
 
     .collectedtotzvit .totprice {
@@ -792,5 +794,12 @@
         width: 500px;
         margin-top: 50px;
     }
+
+    .welcomescreen__rightsect .imgwrap.litt:nth-child(1) {
+        margin-bottom: 20px;
+    }
+
+
+
 
 }
