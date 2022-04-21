@@ -40,8 +40,15 @@ $(document).ready(function () {
         $('.header__nav').removeClass('show');
     });
 
-
-
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+    });
 
 
 });
