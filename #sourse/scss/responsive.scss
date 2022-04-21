@@ -35,6 +35,39 @@
         left: 53%;
     }
 
+    .collectedtotzvit>img {
+        width: 800px;
+    }
+
+    .collectedzvit ul li p:first-child .title,
+    .collectedzvit ul li p:nth-child(2) {
+        font-size: 21px;
+    }
+
+    .collectedzvit ul li p:nth-child(2):after {
+        width: 25px;
+        top: 12px;
+    }
+
+    .collectedzvit ul li p:nth-child(2) {
+        padding-left: 75px;
+    }
+
+    .collectedtotzvit .title {
+        font-size: 34px;
+    }
+
+    .collectedtotzvit .totprice {
+        font-size: 58px;
+    }
+
+    .collectedzvit ul li p:nth-child(2) {
+        margin: 0;
+    }
+
+    .collectedzvit ul li {
+        margin-bottom: 25px;
+    }
 
 }
 
@@ -142,6 +175,17 @@
         font-size: 28px;
     }
 
+    .collectedtotzvit .totprice {
+        font-size: 48px;
+    }
+
+    .collectedtotzvit .title {
+        font-size: 28px;
+    }
+
+    .collectedzvit .collectedzvit__title {
+        max-width: 100%;
+    }
 
 
 
@@ -381,7 +425,7 @@
     }
 
     .ourjob {
-        padding: 100px 0 0 0!important;
+        padding: 100px 0 0 0 !important;
     }
 
     .btnswrap {
@@ -390,6 +434,7 @@
         justify-content: space-between;
         flex-wrap: wrap;
     }
+
     .bluebtn.rekvbtn {
         display: flex;
         background-color: #fff;
@@ -398,7 +443,9 @@
         min-height: 60px;
     }
 
-
+    .collectedtotzvit {
+        padding-left: 0;
+    }
 
 
 
@@ -414,6 +461,7 @@
 
 
 }
+
 @media(max-width:767.8px) {
     .rekvbottsect>img {
         width: 250px;
@@ -428,9 +476,10 @@
         left: initial;
         right: 40px;
     }
-   
+
 
 }
+
 @media(max-width:575.8px) {
     .welcomescreen__rightsect .imgwrap.litt:nth-child(2) {
         display: none;
@@ -675,19 +724,73 @@
     .reksect ul li:last-child {
         margin-bottom: 0;
     }
+
     .rekbox {
         margin-bottom: 30px;
     }
+
     .rekvizytysect {
         padding-bottom: 50px;
     }
 
     .ourjob {
-        padding: 60px 0 0 0!important;
+        padding: 60px 0 0 0 !important;
     }
 
     .bluebtn.rekvbtn {
         margin-top: 20px;
         width: 100%;
     }
+
+    .collected {
+        padding-top: 50px;
+    }
+
+    .collectedzvit .collectedzvit__title {
+        padding-bottom: 15px;
+    }
+
+    .collectedzvit ul li p {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .collectedzvit ul li p:nth-child(2):after {
+        display: none;
+
+    }
+
+    .collectedzvit ul li p:nth-child(2) {
+        padding-left: 0;
+    }
+    .collectedzvit ul li p:first-child {
+        margin-bottom: 0;
+    }
+
+    .collectedzvit ul li {
+        margin-bottom: 35px;
+    }
+
+    .collectedzvit ul li p:first-child .descr {
+        font-size: 15px;
+    }
+
+    .collectedzvit ul li p:first-child .title {
+        margin-bottom: 0;
+    }
+
+    .collectedtotzvit .totprice {
+        font-size: 36px;
+    }
+
+    .collectedtotzvit .watch-reports {
+        width: 100%;
+        max-width: 340px;
+    }
+
+    .collectedtotzvit>img {
+        width: 500px;
+        margin-top: 50px;
+    }
+
 }
