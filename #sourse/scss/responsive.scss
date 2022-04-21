@@ -492,7 +492,7 @@
     }
 
     .welcomescreen {
-        padding: 30px 0 0 0;
+        padding: 20px 0 0 0;
     }
 
     .welcomescreen__leftsect {
@@ -763,6 +763,7 @@
     .collectedzvit ul li p:nth-child(2) {
         padding-left: 0;
     }
+
     .collectedzvit ul li p:first-child {
         margin-bottom: 20px;
     }
@@ -815,6 +816,7 @@
     .collectedzvit ul li {
         display: block;
     }
+
     .collectedzvit ul li p:nth-child(2) {
         flex: initial;
         width: auto;
@@ -823,6 +825,14 @@
 
     .welcomescreen__rightsect .imgwrap.litt:last-child {
         display: none;
+    }
+
+    .welcomescreen__rightsect .imgwrap.litt:first-child {
+        margin-bottom: 0;
+    }
+
+    .welcomescreen__leftsect {
+        padding-top: 10px;
     }
 
 }
