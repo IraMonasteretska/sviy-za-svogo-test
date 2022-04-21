@@ -769,8 +769,13 @@
 
     .collectedzvit ul li {
         margin-bottom: 20px;
-        border-bottom: 1px solid rgba(#212121, 0.3);
+        // border-bottom: 1px solid rgba(#212121, 0.3);
         padding-bottom: 15px;
+    }
+
+    .collectedzvit ul li p:nth-child(2) {
+        border-bottom: 1px solid #50CAFF;
+        display: inline-block;
     }
 
     .collectedzvit ul li p:first-child .descr {
@@ -803,6 +808,17 @@
         background-repeat: repeat-x;
     }
 
+    .welcomescreen__rightsect .imgwrap.litt {
+        height: auto;
+    }
 
+    .collectedzvit ul li {
+        display: block;
+    }
+    .collectedzvit ul li p:nth-child(2) {
+        flex: initial;
+        width: auto;
+        padding-bottom: 5px;
+    }
 
 }
