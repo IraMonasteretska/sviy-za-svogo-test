@@ -447,7 +447,9 @@
         padding-left: 0;
     }
 
-
+    .rekbox:last-child {
+        margin-bottom: 50px;
+    }
 
 
 
@@ -856,6 +858,11 @@
     .mobslider img {
         width: 100%;
     }
+    
+    .rekbox:last-child {
+        margin-bottom: 30px;
+    }
+
 
 
 
