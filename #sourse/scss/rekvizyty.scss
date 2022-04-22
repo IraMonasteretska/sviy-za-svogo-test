@@ -106,3 +106,10 @@
         z-index: 1;
     }
 }
+
+.rekbox {
+    margin-bottom: 50px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
